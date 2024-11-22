@@ -8,7 +8,9 @@
 # IP-CIDR6: 1
 # TOTAL: 183
 payload:
-  - DOMAIN-KEYWORD,google
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,suggestqueries.com
   - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,googlevideo.com
