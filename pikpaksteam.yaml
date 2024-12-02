@@ -11,3 +11,4 @@ payload:
   - DOMAIN,api-drive.mypikpak.com
   - DOMAIN-KEYWORD,dl-a10b-
   - DOMAIN-SUFFIX,steamserver.net
+  - DOMAIN-SUFFIX,steampowered.com
