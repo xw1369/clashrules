@@ -12,3 +12,4 @@ payload:
    - PROCESS-NAME,uu.exe
    - PROCESS-NAME,uu_cloudsyn.exe
    - PROCESS-NAME,steam.exe
+   - DOMAIN,dcg.microsoft.com
