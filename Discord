@@ -5,6 +5,7 @@
 # DOMAIN-SUFFIX: 28
 # TOTAL: 28
 payload:
+  - PROCESS-NAME,Discord.exe 
   - DOMAIN-SUFFIX,airhorn.solutions  
   - DOMAIN-SUFFIX,airhornbot.com
   - DOMAIN-SUFFIX,bigbeans.solutions
