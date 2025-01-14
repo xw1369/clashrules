@@ -11,4 +11,3 @@ payload:
    - PROCESS-NAME,uu.exe
    - PROCESS-NAME,uu_cloudsyn.exe
    - PROCESS-NAME,steam.exe
-   - DOMAIN-SUFFIX,steamstatic.com
