@@ -191,7 +191,7 @@ rule-providers:
     format: text
     type: http
   SteamCN:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    url: https://raw.githubusercontent.com/Aftertea123/clashrules/refs/heads/main/mihomo/SteamCN.list
     path: ./ruleset/SteamCN.list
     behavior: classical
     interval: 86400
