@@ -9,6 +9,9 @@ proxy-groups:
   - name: 🚀 手动切换
     include-all: true
     type: select
+  - name: 🚀 备用切换
+    include-all: true
+    type: select
   - name: ♻️ 自动选择
     type: url-test
     include-all: true
