@@ -382,7 +382,7 @@ rule-providers:
 
 rules:
   - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
-  - "RULE-SET,pikpak,🎯 全球直连"
+  - "RULE-SET,Pikpak,🎯 全球直连"
   - "RULE-SET,UnBan,🎯 全球直连"
   - "RULE-SET,BanAD,🛑 广告拦截"
   - "RULE-SET,BanProgramAD,🍃 应用净化"
