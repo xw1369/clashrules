@@ -17,7 +17,14 @@ proxy-groups:
     include-all: true
     interval: 300
     tolerance: 50
-  - name: 📲 电报消息
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - ✈️ 手动切换
+      - 🛩️ 备用切换
+      - DIRECT
+ - name: 📲 电报消息
     type: select
     proxies:
       - ♻️ 自动选择
@@ -138,13 +145,6 @@ proxy-groups:
     type: select
     proxies:
       - REJECT
-      - DIRECT
-  - name: 🐟 漏网之鱼
-    type: select
-    proxies:
-      - ♻️ 自动选择
-      - ✈️ 手动切换
-      - 🛩️ 备用切换
       - DIRECT
 
 rule-providers:
@@ -366,7 +366,6 @@ rules:
   - "RULE-SET,BanProgramAD,🍃 应用净化"
   - "RULE-SET,GoogleFCM,📢 谷歌FCM"
   - "RULE-SET,GoogleCN,🎯 全球直连"
-  - "RULE-SET,SteamCN,🎯 全球直连"
   - "RULE-SET,Bing,Ⓜ️ 微软Bing"
   - "RULE-SET,OneDrive,Ⓜ️ 微软云盘"
   - "RULE-SET,Microsoft,Ⓜ️ 微软服务"
@@ -374,6 +373,7 @@ rules:
   - "RULE-SET,Telegram,📲 电报消息"
   - "RULE-SET,OpenAi,💬 OpenAi"
   - "RULE-SET,NetEaseMusic,🎶 网易音乐"
+  - "RULE-SET,SteamCN,🎮 游戏下载"
   - "RULE-SET,Epic,🎮 游戏平台"
   - "RULE-SET,Origin,🎮 游戏平台"
   - "RULE-SET,Sony,🎮 游戏平台"
