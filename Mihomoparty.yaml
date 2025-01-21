@@ -17,6 +17,13 @@ proxy-groups:
     include-all: true
     interval: 300
     tolerance: 50
+  - name: 🤖 discord
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - ✈️ 手动切换
+      - 🛩️ 备用切换
+      - DIRECT    
   - name: 🐟 漏网之鱼
     type: select
     proxies:
