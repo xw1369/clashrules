@@ -31,7 +31,7 @@ proxy-groups:
       - ✈️ 手动切换
       - 🛩️ 备用切换
       - DIRECT
- - name: 📲 电报消息
+  - name: 📲 电报消息
     type: select
     proxies:
       - ♻️ 自动选择
