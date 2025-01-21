@@ -142,10 +142,10 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - 🚀 节点选择
       - ♻️ 自动选择
-      - DIRECT
       - 🚀 手动切换
+      - 🚀 备用切换
+      - DIRECT
 
 rule-providers:
   LocalAreaNetwork:
