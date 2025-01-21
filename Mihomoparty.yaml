@@ -176,6 +176,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  Discord:
+    url: https://raw.githubusercontent.com/Aftertea123/clashrules/refs/heads/main/mihomo/discord.list
+    path: ./ruleset/discord.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
   GoogleFCM:
     url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
     path: ./ruleset/GoogleFCM.list
