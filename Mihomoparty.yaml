@@ -43,11 +43,8 @@ proxy-groups:
       - DIRECT
   - name: 📹 油管视频
     type: select
-    proxies:
-      - ♻️ 自动选择
-      - ✈️ 手动切换
-      - 🛩️ 备用切换
-      - DIRECT
+    include-all: true
+    type: select
   - name: 🎥 奈飞视频
     type: select
     proxies:
