@@ -122,6 +122,13 @@ proxy-groups:
       - ✈️ 手动切换
       - 🛩️ 备用切换
       - DIRECT
+  - name: 🎮 游戏下载
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - ✈️ 手动切换
+      - 🛩️ 备用切换
+      - DIRECT      
   - name: 🎮 游戏平台
     type: select
     proxies:
