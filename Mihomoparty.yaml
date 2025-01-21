@@ -6,10 +6,10 @@ proxy-groups:
       - 🚀 手动切换
       - 🚀 备用切换
       - DIRECT
-  - name: 🚀 手动切换
+  - name: ✈️ 手动切换
     include-all: true
     type: select
-  - name: 🚀 备用切换
+  - name: 🛩️ 备用切换
     include-all: true
     type: select
   - name: ♻️ 自动选择
