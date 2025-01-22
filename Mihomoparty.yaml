@@ -1,3 +1,15 @@
+proxy-providers:
+  AIR1:
+    type: http
+    url: "http://127.0.0.1:38324/download/Mesl"
+    interval: 18000
+    health-check:
+      enable: true
+      interval: 1800
+      url: "https://www.gstatic.com/generate_204"
+    path: "./AIR1.yaml"
+    proxy: DIRECT
+      
 proxy-groups:
   - name: 🚀 节点选择
     type: select
