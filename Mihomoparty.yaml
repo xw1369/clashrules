@@ -194,6 +194,48 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  Inside:
+    url: https://raw.githubusercontent.com/cutethotw/ClashRule/main/Rule/Inside.list
+    path: ./ruleset/Inside.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Lan:
+    url: https://raw.githubusercontent.com/Aftertea123/clashrules/refs/heads/main/Lan.yaml
+    path: ./ruleset/Lan.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaDomain:
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    path: ./ruleset/ChinaDomain.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaCompanyIp:
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    path: ./ruleset/ChinaCompanyIp.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Download:
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+    path: ./ruleset/Download.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleCN:
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    path: ./ruleset/GoogleCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http  
   Pikpak:
     url: https://raw.githubusercontent.com/Aftertea123/clashrules/refs/heads/main/mihomo/pikpak.list
     path: ./ruleset/Pikpak.list
@@ -369,32 +411,17 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  ChinaDomain:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-    path: ./ruleset/ChinaDomain.list
-    behavior: domain
-    interval: 86400
-    format: text
-    type: http
-  ChinaCompanyIp:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
-    path: ./ruleset/ChinaCompanyIp.list
-    behavior: ipcidr
-    interval: 86400
-    format: text
-    type: http
-  Download:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
-    path: ./ruleset/Download.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
 
 rules:
   - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
   - "RULE-SET,Pikpak,🎯 全球直连"
   - "RULE-SET,UnBan,🎯 全球直连"
+  - "RULE-SET,Lan,🎯 全球直连"
+  - "RULE-SET,Inside,🎯 全球直连"
+  - "RULE-SET,ChinaDomain,🎯 全球直连"
+  - "RULE-SET,ChinaCompanyIp,🎯 全球直连"
+  - "RULE-SET,Download,🎯 全球直连"
+  - "GEOIP,CN,🎯 全球直连"
   - "RULE-SET,BanAD,🛑 广告拦截"
   - "RULE-SET,BanProgramAD,🍃 应用净化"
   - "RULE-SET,GoogleFCM,📢 谷歌FCM"
@@ -420,11 +447,6 @@ rules:
   - "RULE-SET,Bilibili,📺 哔哩哔哩"
   - "RULE-SET,ChinaMedia,🌏 国内媒体"
   - "RULE-SET,ProxyMedia,🌍 国外媒体"
-  - "RULE-SET,ProxyGFWlist,🚀 节点选择"
-  - "RULE-SET,ChinaDomain,🎯 全球直连"
-  - "RULE-SET,ChinaCompanyIp,🎯 全球直连"
-  - "RULE-SET,Download,🎯 全球直连"
-  - "GEOIP,CN,🎯 全球直连"
   - "MATCH,🐟 漏网之鱼"
 
 +rules:
