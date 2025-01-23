@@ -427,7 +427,7 @@ rules:
   - "GEOIP,CN,🎯 全球直连"
   - "MATCH,🐟 漏网之鱼"
 
-  +rules:
++rules:
   - "DOMAIN-SUFFIX,baidu.com,DIRECT"
   - "DOMAIN-SUFFIX,tencent.com,DIRECT"
   - "DOMAIN-SUFFIX,deepl.com,🚀 节点选择"
