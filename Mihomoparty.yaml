@@ -432,3 +432,4 @@ rules:
   - "DOMAIN-SUFFIX,tencent.com,DIRECT"
   - "DOMAIN-SUFFIX,deepl.com,🚀 节点选择"
   - "PROCESS-NAME,VALORANT-Win64-Shipping.exe,DIRECT"
+  - "PROCESS-NAME,LostCastle2.exe,DIRECT"
