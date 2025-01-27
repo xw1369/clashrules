@@ -54,7 +54,7 @@ proxy-groups:
       - 🛩️ 备用切换
       - DIRECT
   - name: 📹 油管视频
-    include-all: true
+    use: [M&F]
     type: select
   - name: 🎥 奈飞视频
     type: select
