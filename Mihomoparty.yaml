@@ -19,18 +19,18 @@ proxy-groups:
       - 🛩️ 备用切换
       - DIRECT
   - name: ✈️ 手动切换
-    include-all: true
+    use: [M&F]
     type: select
   - name: 🛩️ 备用切换
-    include-all: true
+    use: [M&F]
     type: select
   - name: ♻️ 自动选择
     type: url-test
-    include-all: true
+    use: [M&F]
     interval: 300
     tolerance: 50
   - name: 🤖 Discord
-    include-all: true
+    use: [M&F]
     type: select
   - name: 🐟 漏网之鱼
     type: select
