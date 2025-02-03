@@ -25,8 +25,8 @@ proxy-groups:
     use: [M&F]
     type: select
   - name: ♻️ 自动选择
-    type: url-test
     use: [M&F]
+    type: url-test
     interval: 300
     tolerance: 50
   - name: 🤖 Discord
@@ -39,12 +39,8 @@ proxy-groups:
     use: [M&F]
     type: select
   - name: 💬 OpenAi
+    use: [M&F]
     type: select
-    proxies:
-      - ♻️ 自动选择
-      - ✈️ 手动切换
-      - 🛩️ 备用切换
-      - DIRECT
   - name: 📹 油管视频
     use: [M&F]
     type: select
