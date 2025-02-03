@@ -33,19 +33,11 @@ proxy-groups:
     use: [M&F]
     type: select
   - name: 🐟 漏网之鱼
+    use: [M&F]
     type: select
-    proxies:
-      - ♻️ 自动选择
-      - ✈️ 手动切换
-      - 🛩️ 备用切换
-      - DIRECT
   - name: 📲 电报消息
+    use: [M&F]
     type: select
-    proxies:
-      - ♻️ 自动选择
-      - ✈️ 手动切换
-      - 🛩️ 备用切换
-      - DIRECT
   - name: 💬 OpenAi
     type: select
     proxies:
