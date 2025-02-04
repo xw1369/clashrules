@@ -44,6 +44,9 @@ proxy-groups:
   - name: 📹 油管视频
     use: [M&F]
     type: select
+  - name: 🎬 EMBY
+    use: [M&F]
+    type: select
   - name: 🎥 奈飞视频
     type: select
     proxies:
@@ -223,7 +226,21 @@ rule-providers:
     behavior: classical
     interval: 86400
     format: text
-    type: http  
+    type: http
+  EMBY:
+    url: https://raw.githubusercontent.com/cutethotw/ClashRule/main/Rule/Emby.yaml
+    path: ./ruleset/EMBY.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  EMBYCN:
+    url: https://raw.githubusercontent.com/cutethotw/ClashRule/main/Rule/Emby.yaml
+    path: ./ruleset/EMBYCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http       
   Pikpak:
     url: https://raw.githubusercontent.com/Aftertea123/clashrules/refs/heads/main/mihomo/pikpak.list
     path: ./ruleset/Pikpak.list
