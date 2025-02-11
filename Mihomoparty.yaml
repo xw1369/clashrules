@@ -455,3 +455,5 @@ rules:
   - "DOMAIN-SUFFIX,deepl.com,🚀 节点选择"
   - "PROCESS-NAME,VALORANT-Win64-Shipping.exe,DIRECT"
   - "PROCESS-NAME,LostCastle2.exe,DIRECT"
+  - "PROCESS-NAME,AbioticFactor-Win64-Shipping.exe,🐟 漏网之鱼"
+  - "PROCESS-NAME,For The King II.exe,🐟 漏网之鱼"
