@@ -234,9 +234,9 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  EMBYCN:
-    url: https://raw.githubusercontent.com/cutethotw/ClashRule/main/Rule/Emby.yaml
-    path: ./ruleset/EMBYCN.list
+  YoutubeCN:
+    url: https://raw.githubusercontent.com/meslcloud/Rule/refs/heads/main/Clash/YouTube.yaml
+    path: ./ruleset/YoutubeCN.list
     behavior: classical
     interval: 86400
     format: text
@@ -438,8 +438,10 @@ rules:
   - "RULE-SET,Sony,🎮 游戏平台"
   - "RULE-SET,Steam,🎮 游戏平台"
   - "RULE-SET,Nintendo,🎮 游戏平台"
+  - "RULE-SET,YouTubeCN,📹 油管视频"
   - "RULE-SET,YouTube,📹 油管视频"
   - "RULE-SET,Netflix,🎥 奈飞视频"
+  - "RULE-SET,EMBY,🎬 EMBY"
   - "RULE-SET,Bahamut,📺 巴哈姆特"
   - "RULE-SET,BilibiliHMT,📺 哔哩哔哩"
   - "RULE-SET,Bilibili,📺 哔哩哔哩"
