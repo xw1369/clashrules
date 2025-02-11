@@ -235,7 +235,7 @@ rule-providers:
     format: text
     type: http
   YouTubeCN:
-    url: https://raw.githubusercontent.com/meslcloud/Rule/refs/heads/main/Clash/YouTube.yaml
+    url: https://raw.githubusercontent.com/Aftertea123/clashrules/refs/heads/main/YouTubeCN.yaml
     path: ./ruleset/YoutubeCN.list
     behavior: classical
     interval: 86400
