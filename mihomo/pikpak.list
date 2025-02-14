@@ -1,6 +1,5 @@
 DOMAIN,api-drive.mypikpak.com
 DOMAIN-KEYWORD,dl-a10b-
-DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,steamserver.net
 IP-CIDR,45.121.184.0/24
 IP-CIDR,103.10.124.0/23
